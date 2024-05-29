@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 1320px;
+}
+li {
+  list-style: none;
+}
+.ul-item {
+  display: flex;
+  gap: 20px;
+  padding-top: 15px;
+}
+.flex-header {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.button {
+  width: 200px;
+  height: 40px;
+  background-color: #535765;
+}
+.button-sentence {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
+.header {
+  justify-content: space-between;
+  display: flex;
+  padding-top: 30px;
+}
+.list-item {
+  color: #535765;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  height: 16px;
+}
+.first-hr {
+  width: 1320px;
+  color: #cccccc;
+  margin-top: 15px;
+  height: 1px;
+}
+.h2-header {
+  line-height: 88px;
+  font-weight: 520;
+  font-size: 102px;
+  color: #14171f;
+  font-family: "Poiret One", sans-serif;
+  margin-top: 10px;
+}
+.img-header {
+  margin-top: 20px;
+}
+.main {
+  margin-top: 60px;
+  position: relative;
+}
+.h2-main {
+  color: #14171f;
+  font-size: 32px;
+  font-family: "Poiret One", sans-serif;
+}
+.main {
+  position: relative;
+}
+.img-flex {
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
+}
+.position {
+  position: absolute;
+  left: 11px;
+  bottom: 96px;
+  width: 250px;
+}
+.mainbutton {
+  width: 204px;
+  height: 44px;
+  border: 4px solid #fff;
+  bottom: 48px;
+  position: relative;
+
+  background-color: #ffffff;
+  opacity: 0.1;
+}
+.sentence-bt {
+  color: black;
+  font-size: 20px;
+}
+.chirasm1 {
+  position: absolute;
+  bottom: 160px;
+  left: 150px;
+}
+.chirasm2 {
+  position: absolute;
+  bottom: 160px;
+  left: 470px;
+}
+.chirasm3 {
+  position: absolute;
+  bottom: 160px;
+  left: 750px;
+}
+.chirasm4 {
+  position: absolute;
+  bottom: 160px;
+  left: 84%;
+}
+.vbolaxonasi {
+  padding-top: 30px;
+}
+.flex-instgaram {
+  display: flex;
+}
+.imagessc {
+  margin-top: 20px;
+}
+.imagesgap {
+  margin-left: 10px;
+}
+.instagramsc {
+  position: relative;
+  margin-top: 30px;
+}
+
+.contact {
+  margin-top: 96px;
+}
+.contact-title {
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #14171f;
+}
+
+.contact-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  max-width: 650px;
+  width: 100%;
+  padding: 64px 52px;
+
+  background-color: #f5f5f5;
+}
+.contact-content {
+  width: 187px;
+}
+.contact-right {
+  max-width: 650px;
+  width: 100%;
+}
+.contact-content-title {
+  margin-bottom: 8px;
+  color: #262524;
+  font-size: 24px;
+}
+
+.contact-right iframe {
+  width: 100%;
+  height: 476px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  padding: 25px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.footer-list {
+  display: flex;
+  gap: 12px;
+}
+.footer-item img {
+  width: 100%;
+  height: 100%;
+}
+.footer-text {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    padding-left: 20px;
+  }
+
+  .header {
+    justify-content: left;
+    display: flex;
+    padding-top: 30px;
+  }
+  .button {
+    width: 200px;
+    height: 40px;
+    background-color: #535765;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .h2-header {
+    font-weight: 600;
+    font-size: 66px;
+  }
+  .first-hr {
+    width: 750px;
+  }
+  .h2-header {
+    width: 750px;
+  }
+  .img-header {
+    width: 720px;
+    height: 560px;
+  }
+  .kkmas {
+    display: none;
+  }
+  .photosin800 {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .img-2 {
+    width: 350px;
+    height: 340px;
+  }
+  .vbolaxonasi {
+    width: 720px;
+    height: 560px;
+  }
+  .flex-instgaram {
+    display: flex;
+    gap: 400px;
+  }
+  .imagesgap2 {
+    display: none;
+  }
+  .imagesgap2 {
+    display: none;
+  }
+  .chirasm3 {
+    display: none;
+  }
+  .chirasm4 {
+    display: none;
+  }
+  .contact-left {
+    width: 720px;
+  }
+  .contact-left {
+    display: flex;
+  }
+  .contact {
+    flex-wrap: wrap;
+  }
+  .contact-main {
+    flex-direction: column;
+  }
+  .contact-left {
+    margin-top: 20px;
+  }
+  .footer {
+    width: 720px;
+  }
+}
+
+.raw-1 {
+  margin-top: 20px;
+}
+.photosin800 {
+  display: none;
+}
